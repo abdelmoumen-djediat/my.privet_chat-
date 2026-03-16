@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "privet-chat-96e",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/chat_app.html"
+      }
+    ]
+  }
+}
